@@ -68,7 +68,7 @@ const Register: React.FC = () => {
 
                 <Box component="form" onSubmit={handleSubmit}>
                     <Grid container spacing={2}>
-                        <Grid component="div" item xs={12} sm={6}>
+                        <Grid item xs={12} sm={6}>
                             <TextField
                                 margin="normal"
                                 fullWidth
@@ -80,7 +80,7 @@ const Register: React.FC = () => {
                                 onChange={handleChange}
                             />
                         </Grid>
-                        <Grid component="div" item xs={12} sm={6}>
+                        <Grid item xs={12} sm={6}>
                             <TextField
                                 margin="normal"
                                 fullWidth

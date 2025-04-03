@@ -95,7 +95,7 @@ const Dashboard: React.FC = () => {
 
             <Grid container spacing={3}>
                 {/* Action Items */}
-                <Grid component="div" item xs={12} md={6}>
+                <Grid item xs={12} md={6}>
                     <Paper sx={{ p: 2 }}>
                         <Box display="flex" justifyContent="space-between" alignItems="center" mb={2}>
                             <Typography variant="h6">Pending Action Items</Typography>
@@ -143,7 +143,7 @@ const Dashboard: React.FC = () => {
                 </Grid>
 
                 {/* Recent Messages */}
-                <Grid component="div" item xs={12} md={6}>
+                <Grid item xs={12} md={6}>
                     <Paper sx={{ p: 2 }}>
                         <Box display="flex" justifyContent="space-between" alignItems="center" mb={2}>
                             <Typography variant="h6">Recent Messages</Typography>
@@ -194,13 +194,13 @@ const Dashboard: React.FC = () => {
                 </Grid>
 
                 {/* Platform Status */}
-                <Grid component="div" item xs={12}>
+                <Grid item xs={12}>
                     <Paper sx={{ p: 2 }}>
                         <Typography variant="h6" gutterBottom>
                             Platform Integrations
                         </Typography>
                         <Grid container spacing={2}>
-                            <Grid component="div" item xs={4}>
+                            <Grid item xs={4}>
                                 <Paper elevation={1} sx={{ p: 2, textAlign: 'center' }}>
                                     <Typography variant="h5">📧</Typography>
                                     <Typography>Email</Typography>
@@ -213,7 +213,7 @@ const Dashboard: React.FC = () => {
                                     />
                                 </Paper>
                             </Grid>
-                            <Grid component="div" item xs={4}>
+                            <Grid item xs={4}>
                                 <Paper elevation={1} sx={{ p: 2, textAlign: 'center' }}>
                                     <Typography variant="h5">🔷</Typography>
                                     <Typography>Slack</Typography>
@@ -226,7 +226,7 @@ const Dashboard: React.FC = () => {
                                     />
                                 </Paper>
                             </Grid>
-                            <Grid component="div" item xs={4}>
+                            <Grid item xs={4}>
                                 <Paper elevation={1} sx={{ p: 2, textAlign: 'center' }}>
                                     <Typography variant="h5">🔷</Typography>
                                     <Typography>Teams</Typography>
